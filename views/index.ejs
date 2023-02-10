@@ -7,8 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="post">
-        <h1>Upload form</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <h1>Upload form</h1><br>
+        <label for="">File: </label><input type="file" name="file" id="file"><br>
+        <hr>
+        <button type="submit" value="upload">Upload</button>
     </form>
 </body>
 </html>
